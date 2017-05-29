@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LoginViewC.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +20,8 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+   // [self showLoginViewC];// 登录
     [self showMainTarBarC];//进入主页面TabBar
     return YES;
 }
@@ -48,6 +50,20 @@
 {
 }
 
+#pragma mark - Login 登录
+-  (void)showLoginViewC{
+    LoginViewC *loginViewC = (LoginViewC *)[LoginViewC showSTBaseViewCOnSuperViewC:nil
+                                                                      andFrameRect:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+                                                          andSTViewCTransitionType:STViewCTransitionTypeOfPush
+                                                                       andComplete:^(BOOL finished,
+                                                                                     STBaseViewC *stBaseViewC) {
+        
+    }];
+    loginViewC.title = @"登录";
+    [loginViewC loginView];
+    UINavigationController *loginNavC = [[UINavigationController alloc]initWithRootViewController:loginViewC];
+    self.window.rootViewController = loginNavC;
+}
 #pragma mark -TarBarC
 - (void)showMainTarBarC
 {

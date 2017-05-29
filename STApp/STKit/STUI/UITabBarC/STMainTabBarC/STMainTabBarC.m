@@ -43,7 +43,7 @@
     homeViewC.recordTabBarC = self;     //记录
     homeViewC.title = @"首页";
     UINavigationController *homeNavC = [[UINavigationController alloc] initWithRootViewController:homeViewC];
-    
+    homeNavC.navigationBar.hidden = YES;
     //1-- 发现
     FindViewC *findViewC = (FindViewC *)[ChatViewC showSTBaseViewCOnSuperViewC:nil
                                                                   andFrameRect:CGRectMake(0, 0, SCREEN_HEIGHT, SCREEN_HEIGHT)

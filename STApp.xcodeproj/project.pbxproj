@@ -45,6 +45,12 @@
 		9EAFD4381EDBF6F20053E2F8 /* PopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4211EDBF6F20053E2F8 /* PopMenuModel.m */; };
 		9EAFD4391EDBF6F20053E2F8 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4231EDBF6F20053E2F8 /* UIColor+ImageGetColor.m */; };
 		9EAFD43D1EDBF7350053E2F8 /* PopMenuCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD43C1EDBF7350053E2F8 /* PopMenuCenter.m */; };
+		9EAFD4481EDC29CF0053E2F8 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4471EDC29CF0053E2F8 /* LoginView.m */; };
+		9EAFD44A1EDC29D90053E2F8 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4491EDC29D90053E2F8 /* LoginView.xib */; };
+		9EAFD44E1EDC2BB20053E2F8 /* LoginThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD44D1EDC2BB20053E2F8 /* LoginThirdView.m */; };
+		9EAFD4501EDC2BBB0053E2F8 /* LoginThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD44F1EDC2BBB0053E2F8 /* LoginThirdView.xib */; };
+		9EAFD4541EDC2DDC0053E2F8 /* LoginViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4521EDC2DDC0053E2F8 /* LoginViewC.m */; };
+		9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */; };
 		E99DAE01164EFDE5C5A7E3A2 /* libPods-STApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F433D5E92F210328B99C607C /* libPods-STApp.a */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +141,15 @@
 		9EAFD4231EDBF6F20053E2F8 /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
 		9EAFD43B1EDBF7350053E2F8 /* PopMenuCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuCenter.h; sourceTree = "<group>"; };
 		9EAFD43C1EDBF7350053E2F8 /* PopMenuCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuCenter.m; sourceTree = "<group>"; };
+		9EAFD4461EDC29CF0053E2F8 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		9EAFD4471EDC29CF0053E2F8 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		9EAFD4491EDC29D90053E2F8 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		9EAFD44C1EDC2BB20053E2F8 /* LoginThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginThirdView.h; sourceTree = "<group>"; };
+		9EAFD44D1EDC2BB20053E2F8 /* LoginThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginThirdView.m; sourceTree = "<group>"; };
+		9EAFD44F1EDC2BBB0053E2F8 /* LoginThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginThirdView.xib; sourceTree = "<group>"; };
+		9EAFD4511EDC2DDC0053E2F8 /* LoginViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewC.h; sourceTree = "<group>"; };
+		9EAFD4521EDC2DDC0053E2F8 /* LoginViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewC.m; sourceTree = "<group>"; };
+		9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewC.xib; sourceTree = "<group>"; };
 		F433D5E92F210328B99C607C /* libPods-STApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -259,6 +274,7 @@
 		9E28481B1EDB9B1F00F30EF4 /* STUI */ = {
 			isa = PBXGroup;
 			children = (
+				9EAFD4601EDC5AEE0053E2F8 /* UIScrollView */,
 				9E28483C1EDBB28C00F30EF4 /* UIView */,
 				9E2848281EDBA7FA00F30EF4 /* UIViewC */,
 				9E28481D1EDBA46B00F30EF4 /* UITabBarC */,
@@ -294,6 +310,7 @@
 		9E2848261EDBA74C00F30EF4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9EAFD43E1EDC25C90053E2F8 /* Login */,
 				9EAFD43A1EDBF7350053E2F8 /* PopMenuCenter */,
 				9EAFD3D31EDBDC950053E2F8 /* Find */,
 				9EAFD3C61EDBDAEB0053E2F8 /* Zone */,
@@ -560,6 +577,61 @@
 			path = PopMenuCenter;
 			sourceTree = "<group>";
 		};
+		9EAFD43E1EDC25C90053E2F8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD4401EDC269E0053E2F8 /* Login */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9EAFD4401EDC269E0053E2F8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD44B1EDC2BA50053E2F8 /* LoginThirdView */,
+				9EAFD4421EDC29440053E2F8 /* LoginView */,
+				9EAFD4431EDC29440053E2F8 /* LoginViewC */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9EAFD4421EDC29440053E2F8 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD4461EDC29CF0053E2F8 /* LoginView.h */,
+				9EAFD4471EDC29CF0053E2F8 /* LoginView.m */,
+				9EAFD4491EDC29D90053E2F8 /* LoginView.xib */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		9EAFD4431EDC29440053E2F8 /* LoginViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD4511EDC2DDC0053E2F8 /* LoginViewC.h */,
+				9EAFD4521EDC2DDC0053E2F8 /* LoginViewC.m */,
+				9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */,
+			);
+			path = LoginViewC;
+			sourceTree = "<group>";
+		};
+		9EAFD44B1EDC2BA50053E2F8 /* LoginThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD44C1EDC2BB20053E2F8 /* LoginThirdView.h */,
+				9EAFD44D1EDC2BB20053E2F8 /* LoginThirdView.m */,
+				9EAFD44F1EDC2BBB0053E2F8 /* LoginThirdView.xib */,
+			);
+			path = LoginThirdView;
+			sourceTree = "<group>";
+		};
+		9EAFD4601EDC5AEE0053E2F8 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -674,12 +746,15 @@
 			files = (
 				9EAFD3B31EDBB9030053E2F8 /* HomeView.xib in Resources */,
 				9EAFD3D01EDBDB210053E2F8 /* ZoneViewC.xib in Resources */,
+				9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */,
+				9EAFD4501EDC2BBB0053E2F8 /* LoginThirdView.xib in Resources */,
 				9E28483A1EDBB21900F30EF4 /* PersonalViewC.xib in Resources */,
 				9EAFD3C51EDBDA190053E2F8 /* ChatVIew.xib in Resources */,
 				9E2847F51EDB969A00F30EF4 /* LaunchScreen.storyboard in Resources */,
 				9EAFD3C01EDBD9DD0053E2F8 /* ChatViewC.xib in Resources */,
 				9EAFD3AB1EDBB4190053E2F8 /* PersonalView.xib in Resources */,
 				9EAFD3A61EDBB34D0053E2F8 /* STNavBarView.xib in Resources */,
+				9EAFD44A1EDC29D90053E2F8 /* LoginView.xib in Resources */,
 				9EAFD3D21EDBDB2B0053E2F8 /* ZoneView.xib in Resources */,
 				9EAFD3DF1EDBDCCB0053E2F8 /* FindViewC.xib in Resources */,
 				9EAFD3B81EDBB9CB0053E2F8 /* HomeViewC.xib in Resources */,
@@ -760,13 +835,16 @@
 			files = (
 				9E28482C1EDBAA9800F30EF4 /* STBaseViewC.m in Sources */,
 				9EAFD4391EDBF6F20053E2F8 /* UIColor+ImageGetColor.m in Sources */,
+				9EAFD4481EDC29CF0053E2F8 /* LoginView.m in Sources */,
 				9EAFD4381EDBF6F20053E2F8 /* PopMenuModel.m in Sources */,
+				9EAFD4541EDC2DDC0053E2F8 /* LoginViewC.m in Sources */,
 				9EAFD3D81EDBDCA80053E2F8 /* FindView.m in Sources */,
 				9EAFD3CF1EDBDB210053E2F8 /* ZoneViewC.m in Sources */,
 				9E2848221EDBA4BA00F30EF4 /* STMainTabBarC.m in Sources */,
 				9EAFD3DE1EDBDCCB0053E2F8 /* FindViewC.m in Sources */,
 				9E2847EA1EDB969A00F30EF4 /* AppDelegate.m in Sources */,
 				9E2847E71EDB969A00F30EF4 /* main.m in Sources */,
+				9EAFD44E1EDC2BB20053E2F8 /* LoginThirdView.m in Sources */,
 				9E2848401EDBB2A400F30EF4 /* STBaseView.m in Sources */,
 				9EAFD3A91EDBB3FE0053E2F8 /* PersonalView.m in Sources */,
 				9EAFD3CB1EDBDB030053E2F8 /* ZoneView.m in Sources */,

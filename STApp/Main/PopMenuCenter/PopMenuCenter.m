@@ -181,7 +181,7 @@ static PopMenuCenter *signleton = nil;
         //自动填充颜色
         _menu.automaticIdentificationColor = false;
         //pop动画类型
-        _menu.animationType = HyPopMenuViewAnimationTypeSina;
+        _menu.animationType = HyPopMenuViewAnimationTypeCenter;
         _menu.backgroundType = HyPopMenuViewBackgroundTypeLightTranslucent;
     }
     return _menu;
