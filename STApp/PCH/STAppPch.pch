@@ -1,0 +1,18 @@
+//
+//  STAppPch.pch
+//  STApp
+//
+//  Created by 岳克奎 on 17/5/29.
+//  Copyright © 2017年 SlienceTeam. All rights reserved.
+//
+
+#ifndef STAppPch_pch
+#define STAppPch_pch
+
+#import "STBaseViewC.h"
+#import "STBaseView.h"
+
+#import <POP.h>
+#define SCREEN_WIDTH            [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT           [[UIScreen mainScreen] bounds].size.height
+#endif /* STAppPch_pch */

@@ -1,0 +1,28 @@
+PODS:
+  - IQKeyboardManager (4.0.8)
+  - MJExtension (3.0.13)
+  - pop (1.0.9)
+  - XMNetworking (1.0.0):
+    - XMNetworking/Core (= 1.0.0)
+    - XMNetworking/Lib (= 1.0.0)
+  - XMNetworking/Core (1.0.0):
+    - XMNetworking/Lib/AFNetworking-3.1.0
+  - XMNetworking/Lib (1.0.0):
+    - XMNetworking/Lib/AFNetworking-3.1.0 (= 1.0.0)
+  - XMNetworking/Lib/AFNetworking-3.1.0 (1.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - MJExtension
+  - pop
+  - XMNetworking
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  XMNetworking: 997cdb61f537362a2bb7bb4e7e0a36bff03bdad1
+
+PODFILE CHECKSUM: d3c93586388af17fe106f699d172db93541e1c57
+
+COCOAPODS: 1.2.0.beta.1
