@@ -21,9 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-   [self showLoginViewC] ;// 登录
+   //[self showLoginViewC] ;// 登录
 
-    //[self showMainTarBarC];//进入主页面TabBar
+    [self showMainTarBarC];//进入主页面TabBar
     return YES;
 }
 

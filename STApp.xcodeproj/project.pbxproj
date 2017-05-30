@@ -742,7 +742,7 @@
 				TargetAttributes = {
 					9E2847E11EDB969A00F30EF4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = BKME25WU4F;
+						DevelopmentTeam = T2F46232N5;
 						ProvisioningStyle = Automatic;
 					};
 					9E2847FA1EDB969A00F30EF4 = {
@@ -1047,9 +1047,11 @@
 			baseConfigurationReference = 57FED0D7A79A6AEB5FF6BBBA /* Pods-STApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BKME25WU4F;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = T2F46232N5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STApp/PCH/STAppPch.pch";
 				INFOPLIST_FILE = STApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.STApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1061,9 +1063,11 @@
 			baseConfigurationReference = 5D911089C122858F98BBE01D /* Pods-STApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BKME25WU4F;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = T2F46232N5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STApp/PCH/STAppPch.pch";
 				INFOPLIST_FILE = STApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.STApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,6 +34,8 @@
        // _playerViewC.view.backgroundColor = [UIColor redColor];
         _playerViewC.view.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         _playerViewC.allowsPictureInPicturePlayback = false;
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(runLoopTheMovie:) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
+
     }
     return _playerViewC;
 }
@@ -116,5 +119,18 @@
 - (void)playerViewController:(AVPlayerViewController *)playerViewController restoreUserInterfaceForPictureInPictureStopWithCompletionHandler:(void (^)(BOOL restored))completionHandler{
     NSLog(@"restoreUserInterfaceForPictureInPictureStopWithCompletionHandler");
     completionHandler(true);
+}
+- (void)runLoopTheMovie:(NSNotification *)n{
+    //注册的通知  可以自动把 AVPlayerItem 对象传过来，只要接收一下就OK
+    
+    AVPlayerItem * p = [n object];
+    //关键代码
+    [p seekToTime:kCMTimeZero];
+    
+    [_player play];
+    NSLog(@"=========重播");
+}
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
 @end
