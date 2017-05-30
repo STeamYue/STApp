@@ -51,6 +51,8 @@
 		9EAFD4501EDC2BBB0053E2F8 /* LoginThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD44F1EDC2BBB0053E2F8 /* LoginThirdView.xib */; };
 		9EAFD4541EDC2DDC0053E2F8 /* LoginViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4521EDC2DDC0053E2F8 /* LoginViewC.m */; };
 		9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */; };
+		9EAFD4721EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4701EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m */; };
+		9EAFD4761EDC6A9D0053E2F8 /* startMovide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4751EDC6A9D0053E2F8 /* startMovide.mp4 */; };
 		E99DAE01164EFDE5C5A7E3A2 /* libPods-STApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F433D5E92F210328B99C607C /* libPods-STApp.a */; };
 /* End PBXBuildFile section */
 
@@ -150,6 +152,9 @@
 		9EAFD4511EDC2DDC0053E2F8 /* LoginViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewC.h; sourceTree = "<group>"; };
 		9EAFD4521EDC2DDC0053E2F8 /* LoginViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewC.m; sourceTree = "<group>"; };
 		9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewC.xib; sourceTree = "<group>"; };
+		9EAFD46F1EDC67170053E2F8 /* STStarMovieAVPlayerViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStarMovieAVPlayerViewC.h; sourceTree = "<group>"; };
+		9EAFD4701EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStarMovieAVPlayerViewC.m; sourceTree = "<group>"; };
+		9EAFD4751EDC6A9D0053E2F8 /* startMovide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = startMovide.mp4; sourceTree = "<group>"; };
 		F433D5E92F210328B99C607C /* libPods-STApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -221,6 +226,7 @@
 		9E2847E41EDB969A00F30EF4 /* STApp */ = {
 			isa = PBXGroup;
 			children = (
+				9EAFD4741EDC6A6C0053E2F8 /* Source */,
 				9E28482D1EDBABA000F30EF4 /* PCH */,
 				9E2848261EDBA74C00F30EF4 /* Main */,
 				9E2848181EDB9AD200F30EF4 /* STKit */,
@@ -274,6 +280,7 @@
 		9E28481B1EDB9B1F00F30EF4 /* STUI */ = {
 			isa = PBXGroup;
 			children = (
+				9EAFD4611EDC61B10053E2F8 /* STViewC */,
 				9EAFD4601EDC5AEE0053E2F8 /* UIScrollView */,
 				9E28483C1EDBB28C00F30EF4 /* UIView */,
 				9E2848281EDBA7FA00F30EF4 /* UIViewC */,
@@ -632,6 +639,39 @@
 			path = UIScrollView;
 			sourceTree = "<group>";
 		};
+		9EAFD4611EDC61B10053E2F8 /* STViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD4621EDC61E40053E2F8 /* AVPlayerViewController */,
+			);
+			path = STViewC;
+			sourceTree = "<group>";
+		};
+		9EAFD4621EDC61E40053E2F8 /* AVPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD46E1EDC67060053E2F8 /* STStarMovieAVPlayerViewC */,
+			);
+			path = AVPlayerViewController;
+			sourceTree = "<group>";
+		};
+		9EAFD46E1EDC67060053E2F8 /* STStarMovieAVPlayerViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD46F1EDC67170053E2F8 /* STStarMovieAVPlayerViewC.h */,
+				9EAFD4701EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m */,
+			);
+			path = STStarMovieAVPlayerViewC;
+			sourceTree = "<group>";
+		};
+		9EAFD4741EDC6A6C0053E2F8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFD4751EDC6A9D0053E2F8 /* startMovide.mp4 */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -746,6 +786,7 @@
 			files = (
 				9EAFD3B31EDBB9030053E2F8 /* HomeView.xib in Resources */,
 				9EAFD3D01EDBDB210053E2F8 /* ZoneViewC.xib in Resources */,
+				9EAFD4761EDC6A9D0053E2F8 /* startMovide.mp4 in Resources */,
 				9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */,
 				9EAFD4501EDC2BBB0053E2F8 /* LoginThirdView.xib in Resources */,
 				9E28483A1EDBB21900F30EF4 /* PersonalViewC.xib in Resources */,
@@ -839,6 +880,7 @@
 				9EAFD4381EDBF6F20053E2F8 /* PopMenuModel.m in Sources */,
 				9EAFD4541EDC2DDC0053E2F8 /* LoginViewC.m in Sources */,
 				9EAFD3D81EDBDCA80053E2F8 /* FindView.m in Sources */,
+				9EAFD4721EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m in Sources */,
 				9EAFD3CF1EDBDB210053E2F8 /* ZoneViewC.m in Sources */,
 				9E2848221EDBA4BA00F30EF4 /* STMainTabBarC.m in Sources */,
 				9EAFD3DE1EDBDCCB0053E2F8 /* FindViewC.m in Sources */,

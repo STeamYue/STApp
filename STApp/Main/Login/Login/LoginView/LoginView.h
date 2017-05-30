@@ -9,5 +9,5 @@
 #import "STBaseView.h"
 
 @interface LoginView : STBaseView
-
+@property (weak, nonatomic) IBOutlet UIButton *thirdLoginBtn;
 @end

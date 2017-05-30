@@ -43,6 +43,9 @@
                 <constraint firstAttribute="bottom" secondItem="4AX-rw-SEz" secondAttribute="bottom" constant="12" id="WDO-qJ-XdT"/>
                 <constraint firstItem="4AX-rw-SEz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="onL-g5-Gjb"/>
             </constraints>
+            <connections>
+                <outlet property="thirdLoginBtn" destination="4AX-rw-SEz" id="sP5-Ou-slq"/>
+            </connections>
             <point key="canvasLocation" x="33.5" y="130.5"/>
         </view>
     </objects>

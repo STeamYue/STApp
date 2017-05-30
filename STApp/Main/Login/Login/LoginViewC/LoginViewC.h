@@ -8,6 +8,11 @@
 
 #import "STBaseViewC.h"
 #import "LoginView.h"
-@interface LoginViewC : STBaseViewC
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVKit/AVKit.h>
+#import "STStarMovieAVPlayerViewC.h"
+@interface LoginViewC : STStarMovieAVPlayerViewC
 @property (strong, nonatomic) LoginView *loginView;  //登录View
+
 @end

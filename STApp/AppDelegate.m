@@ -21,8 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-   // [self showLoginViewC];// 登录
-    [self showMainTarBarC];//进入主页面TabBar
+   [self showLoginViewC] ;// 登录
+
+    //[self showMainTarBarC];//进入主页面TabBar
     return YES;
 }
 
@@ -59,10 +60,17 @@
                                                                                      STBaseViewC *stBaseViewC) {
         
     }];
-    loginViewC.title = @"登录";
+   //loginViewC.title = @"登录";
     [loginViewC loginView];
+    [loginViewC playOfMovieStr:[NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"startMovide"
+                                                                                     ofType:@"mp4"]]];
+    [loginViewC addChildViewController:[loginViewC playerViewC]];
+    [[loginViewC loginView] addSubview:loginViewC.playerViewC.view];
+    [loginViewC.loginView sendSubviewToBack:loginViewC.playerViewC.view];
     UINavigationController *loginNavC = [[UINavigationController alloc]initWithRootViewController:loginViewC];
+    loginNavC.navigationBar.hidden = YES;
     self.window.rootViewController = loginNavC;
+    
 }
 #pragma mark -TarBarC
 - (void)showMainTarBarC
