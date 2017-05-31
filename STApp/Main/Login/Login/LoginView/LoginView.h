@@ -7,7 +7,8 @@
 //
 
 #import "STBaseView.h"
-
+#import "ThirdLibPopMenu.h"
 @interface LoginView : STBaseView
 @property (weak, nonatomic) IBOutlet UIButton *thirdLoginBtn;
+@property (nonatomic, strong)ThirdLibPopMenu  *thirdLibPopMenu;
 @end

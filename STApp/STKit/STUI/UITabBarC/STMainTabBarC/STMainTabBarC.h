@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "PopMenuCenter.h"
+#import "TabBarCPopMenu.h"
 @interface STMainTabBarC : UITabBarController
 @property(nonatomic,strong)  UINavigationController *popNavC;
-
+@property (strong, nonatomic)TabBarCPopMenu *tabBarCPopMenu;
 @end

@@ -13,8 +13,9 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic)NSString*str;
+
 //1.拿到AppDelegate
 + (instancetype)shareAppDelegate;
-
+- (void)showMainTarBarC;
 @end
 

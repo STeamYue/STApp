@@ -78,6 +78,4 @@
     STMainTabBarC *tabBars = [[STMainTabBarC alloc]init];
     self.window.rootViewController = tabBars;
 }
-
-
 @end

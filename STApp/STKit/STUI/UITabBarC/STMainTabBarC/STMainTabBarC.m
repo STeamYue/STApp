@@ -100,10 +100,15 @@ shouldSelectViewController:(UIViewController *)viewController{
     //找到选择索引
     NSInteger index = [tabBarController.viewControllers indexOfObject:viewController];
     if(index == 1){
-        PopMenuCenter *popMenuCenter = [PopMenuCenter sharePopMenuCenter];
-        [popMenuCenter setTabBarC:tabBarController];
-        [popMenuCenter setStPopMenuShowState:STPopMenuShow];
-        NSLog(@"哈哈哈哈");
+        //弹出  菜单界面
+        [self tabBarCPopMenu] ;
+        self.tabBarCPopMenu.menu.animationType =  HyPopMenuViewAnimationTypeSina;
+        self.tabBarCPopMenu.menu.backgroundType = HyPopMenuViewBackgroundTypeLightTranslucent;
+        [[self tabBarCPopMenu] showPopViewOfThemeImgMArray:@[@"pop_0",@"pop_1"].mutableCopy
+                                            themeNameMArray:@[@"美颜相机",@"发布动态"].mutableCopy
+                                             themeNameColor:[UIColor redColor]
+                                             transitionType:PopMenuTransitionTypeCustomizeApi
+                                   transitionRenderingColor:[UIColor clearColor]];
         return NO;//iteam 不响应TabBatC的select事件
     }
     return YES;
@@ -119,6 +124,14 @@ shouldSelectViewController:(UIViewController *)viewController{
     [tabBarItem setTitle:itemTitleStr];
     tabBarItem.imageInsets=UIEdgeInsetsMake(2, 2, 2, 2);
 
+}
+#pragma mark - 点击+号弹出菜单
+- (TabBarCPopMenu *)tabBarCPopMenu
+{
+    if (!_tabBarCPopMenu) {
+        _tabBarCPopMenu = [TabBarCPopMenu new];
+    }
+    return _tabBarCPopMenu;
 }
 
 @end

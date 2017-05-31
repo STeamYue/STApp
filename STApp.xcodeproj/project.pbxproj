@@ -31,6 +31,9 @@
 		9E47DA691EDECA6500C524A7 /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E47DA671EDECA6500C524A7 /* StoreCell.xib */; };
 		9E47DA6F1EDED22800C524A7 /* ThirdIteamLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA6E1EDED22800C524A7 /* ThirdIteamLayout.m */; };
 		9E47DA711EDED56400C524A7 /* StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E47DA701EDED56400C524A7 /* StoreView.xib */; };
+		9E47DA771EDEF70800C524A7 /* STPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA761EDEF70800C524A7 /* STPopMenu.m */; };
+		9E47DA7B1EDEFCF100C524A7 /* ThirdLibPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA7A1EDEFCF100C524A7 /* ThirdLibPopMenu.m */; };
+		9E47DA7F1EDF051800C524A7 /* TabBarCPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA7E1EDF051800C524A7 /* TabBarCPopMenu.m */; };
 		9EABABDF1EDDBF900011DF54 /* StoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EABABBE1EDDBF900011DF54 /* StoreView.m */; };
 		9EABABE01EDDBF900011DF54 /* StoreViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EABABC11EDDBF900011DF54 /* StoreViewC.m */; };
 		9EABABE11EDDBF900011DF54 /* StoreViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EABABC21EDDBF900011DF54 /* StoreViewC.xib */; };
@@ -62,11 +65,8 @@
 		9EAFD4371EDBF6F20053E2F8 /* PopMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD41F1EDBF6F20053E2F8 /* PopMenuButton.m */; };
 		9EAFD4381EDBF6F20053E2F8 /* PopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4211EDBF6F20053E2F8 /* PopMenuModel.m */; };
 		9EAFD4391EDBF6F20053E2F8 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4231EDBF6F20053E2F8 /* UIColor+ImageGetColor.m */; };
-		9EAFD43D1EDBF7350053E2F8 /* PopMenuCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD43C1EDBF7350053E2F8 /* PopMenuCenter.m */; };
 		9EAFD4481EDC29CF0053E2F8 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4471EDC29CF0053E2F8 /* LoginView.m */; };
 		9EAFD44A1EDC29D90053E2F8 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4491EDC29D90053E2F8 /* LoginView.xib */; };
-		9EAFD44E1EDC2BB20053E2F8 /* LoginThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD44D1EDC2BB20053E2F8 /* LoginThirdView.m */; };
-		9EAFD4501EDC2BBB0053E2F8 /* LoginThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD44F1EDC2BBB0053E2F8 /* LoginThirdView.xib */; };
 		9EAFD4541EDC2DDC0053E2F8 /* LoginViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4521EDC2DDC0053E2F8 /* LoginViewC.m */; };
 		9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */; };
 		9EAFD4721EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4701EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m */; };
@@ -142,6 +142,12 @@
 		9E47DA6D1EDED22800C524A7 /* ThirdIteamLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdIteamLayout.h; sourceTree = "<group>"; };
 		9E47DA6E1EDED22800C524A7 /* ThirdIteamLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdIteamLayout.m; sourceTree = "<group>"; };
 		9E47DA701EDED56400C524A7 /* StoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreView.xib; sourceTree = "<group>"; };
+		9E47DA751EDEF70800C524A7 /* STPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopMenu.h; sourceTree = "<group>"; };
+		9E47DA761EDEF70800C524A7 /* STPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopMenu.m; sourceTree = "<group>"; };
+		9E47DA791EDEFCF100C524A7 /* ThirdLibPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdLibPopMenu.h; sourceTree = "<group>"; };
+		9E47DA7A1EDEFCF100C524A7 /* ThirdLibPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdLibPopMenu.m; sourceTree = "<group>"; };
+		9E47DA7D1EDF051800C524A7 /* TabBarCPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCPopMenu.h; sourceTree = "<group>"; };
+		9E47DA7E1EDF051800C524A7 /* TabBarCPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCPopMenu.m; sourceTree = "<group>"; };
 		9EABABBD1EDDBF900011DF54 /* StoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreView.h; sourceTree = "<group>"; };
 		9EABABBE1EDDBF900011DF54 /* StoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreView.m; sourceTree = "<group>"; };
 		9EABABC01EDDBF900011DF54 /* StoreViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreViewC.h; sourceTree = "<group>"; };
@@ -192,14 +198,9 @@
 		9EAFD4211EDBF6F20053E2F8 /* PopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuModel.m; sourceTree = "<group>"; };
 		9EAFD4221EDBF6F20053E2F8 /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
 		9EAFD4231EDBF6F20053E2F8 /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
-		9EAFD43B1EDBF7350053E2F8 /* PopMenuCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuCenter.h; sourceTree = "<group>"; };
-		9EAFD43C1EDBF7350053E2F8 /* PopMenuCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuCenter.m; sourceTree = "<group>"; };
 		9EAFD4461EDC29CF0053E2F8 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		9EAFD4471EDC29CF0053E2F8 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		9EAFD4491EDC29D90053E2F8 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
-		9EAFD44C1EDC2BB20053E2F8 /* LoginThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginThirdView.h; sourceTree = "<group>"; };
-		9EAFD44D1EDC2BB20053E2F8 /* LoginThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginThirdView.m; sourceTree = "<group>"; };
-		9EAFD44F1EDC2BBB0053E2F8 /* LoginThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginThirdView.xib; sourceTree = "<group>"; };
 		9EAFD4511EDC2DDC0053E2F8 /* LoginViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewC.h; sourceTree = "<group>"; };
 		9EAFD4521EDC2DDC0053E2F8 /* LoginViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewC.m; sourceTree = "<group>"; };
 		9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewC.xib; sourceTree = "<group>"; };
@@ -337,6 +338,7 @@
 		9E28481B1EDB9B1F00F30EF4 /* STUI */ = {
 			isa = PBXGroup;
 			children = (
+				9E47DA731EDEF6E100C524A7 /* PopUI */,
 				9EAFD4611EDC61B10053E2F8 /* STViewC */,
 				9E28483C1EDBB28C00F30EF4 /* UIView */,
 				9E2848281EDBA7FA00F30EF4 /* UIViewC */,
@@ -356,6 +358,7 @@
 		9E28481D1EDBA46B00F30EF4 /* UITabBarC */ = {
 			isa = PBXGroup;
 			children = (
+				9E47DA7C1EDF050900C524A7 /* TabBarCPopMenu */,
 				9E28481E1EDBA49400F30EF4 /* STMainTabBarC */,
 			);
 			path = UITabBarC;
@@ -374,7 +377,6 @@
 			isa = PBXGroup;
 			children = (
 				9EAFD43E1EDC25C90053E2F8 /* Login */,
-				9EAFD43A1EDBF7350053E2F8 /* PopMenuCenter */,
 				9EAFD3D31EDBDC950053E2F8 /* Find */,
 				9EAFD3C61EDBDAEB0053E2F8 /* Zone */,
 				9EAFD3B91EDBD96A0053E2F8 /* Chat */,
@@ -610,6 +612,41 @@
 				9E47DA6E1EDED22800C524A7 /* ThirdIteamLayout.m */,
 			);
 			path = ThirdIteamLayout;
+			sourceTree = "<group>";
+		};
+		9E47DA731EDEF6E100C524A7 /* PopUI */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA741EDEF6F400C524A7 /* STPopMenu */,
+			);
+			path = PopUI;
+			sourceTree = "<group>";
+		};
+		9E47DA741EDEF6F400C524A7 /* STPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA751EDEF70800C524A7 /* STPopMenu.h */,
+				9E47DA761EDEF70800C524A7 /* STPopMenu.m */,
+			);
+			path = STPopMenu;
+			sourceTree = "<group>";
+		};
+		9E47DA781EDEFCDE00C524A7 /* ThirdLibPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA791EDEFCF100C524A7 /* ThirdLibPopMenu.h */,
+				9E47DA7A1EDEFCF100C524A7 /* ThirdLibPopMenu.m */,
+			);
+			path = ThirdLibPopMenu;
+			sourceTree = "<group>";
+		};
+		9E47DA7C1EDF050900C524A7 /* TabBarCPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA7D1EDF051800C524A7 /* TabBarCPopMenu.h */,
+				9E47DA7E1EDF051800C524A7 /* TabBarCPopMenu.m */,
+			);
+			path = TabBarCPopMenu;
 			sourceTree = "<group>";
 		};
 		9EABABBA1EDDBF900011DF54 /*  Store */ = {
@@ -861,15 +898,6 @@
 			path = STPopUI;
 			sourceTree = "<group>";
 		};
-		9EAFD43A1EDBF7350053E2F8 /* PopMenuCenter */ = {
-			isa = PBXGroup;
-			children = (
-				9EAFD43B1EDBF7350053E2F8 /* PopMenuCenter.h */,
-				9EAFD43C1EDBF7350053E2F8 /* PopMenuCenter.m */,
-			);
-			path = PopMenuCenter;
-			sourceTree = "<group>";
-		};
 		9EAFD43E1EDC25C90053E2F8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -881,7 +909,7 @@
 		9EAFD4401EDC269E0053E2F8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				9EAFD44B1EDC2BA50053E2F8 /* LoginThirdView */,
+				9E47DA781EDEFCDE00C524A7 /* ThirdLibPopMenu */,
 				9EAFD4421EDC29440053E2F8 /* LoginView */,
 				9EAFD4431EDC29440053E2F8 /* LoginViewC */,
 			);
@@ -906,16 +934,6 @@
 				9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */,
 			);
 			path = LoginViewC;
-			sourceTree = "<group>";
-		};
-		9EAFD44B1EDC2BA50053E2F8 /* LoginThirdView */ = {
-			isa = PBXGroup;
-			children = (
-				9EAFD44C1EDC2BB20053E2F8 /* LoginThirdView.h */,
-				9EAFD44D1EDC2BB20053E2F8 /* LoginThirdView.m */,
-				9EAFD44F1EDC2BBB0053E2F8 /* LoginThirdView.xib */,
-			);
-			path = LoginThirdView;
 			sourceTree = "<group>";
 		};
 		9EAFD4611EDC61B10053E2F8 /* STViewC */ = {
@@ -1100,7 +1118,6 @@
 				9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */,
 				9E47DA691EDECA6500C524A7 /* StoreCell.xib in Resources */,
 				9EABABEB1EDDBF900011DF54 /* FindView.xib in Resources */,
-				9EAFD4501EDC2BBB0053E2F8 /* LoginThirdView.xib in Resources */,
 				9E28483A1EDBB21900F30EF4 /* PersonalViewC.xib in Resources */,
 				9EABABE31EDDBF900011DF54 /* AttentionView.xib in Resources */,
 				9EF42DEC1EDD6FF8002B7AE9 /* ZoneView.xib in Resources */,
@@ -1192,7 +1209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EABABE61EDDBF900011DF54 /* DynamicView.m in Sources */,
+				9E47DA7F1EDF051800C524A7 /* TabBarCPopMenu.m in Sources */,
+				9E47DA771EDEF70800C524A7 /* STPopMenu.m in Sources */,
 				9E47DA681EDECA6500C524A7 /* StoreCell.m in Sources */,
+				9E47DA7B1EDEFCF100C524A7 /* ThirdLibPopMenu.m in Sources */,
 				9EABABEA1EDDBF900011DF54 /* FindView.m in Sources */,
 				9EF42DEB1EDD6FF8002B7AE9 /* ZoneView.m in Sources */,
 				9E28482C1EDBAA9800F30EF4 /* STBaseViewC.m in Sources */,
@@ -1210,7 +1230,6 @@
 				9E2847EA1EDB969A00F30EF4 /* AppDelegate.m in Sources */,
 				9E2847E71EDB969A00F30EF4 /* main.m in Sources */,
 				9EABABE21EDDBF900011DF54 /* AttentionView.m in Sources */,
-				9EAFD44E1EDC2BB20053E2F8 /* LoginThirdView.m in Sources */,
 				9E2848401EDBB2A400F30EF4 /* STBaseView.m in Sources */,
 				9EAFD3A91EDBB3FE0053E2F8 /* PersonalView.m in Sources */,
 				9EAFD4371EDBF6F20053E2F8 /* PopMenuButton.m in Sources */,
@@ -1218,7 +1237,6 @@
 				9EABABDF1EDDBF900011DF54 /* StoreView.m in Sources */,
 				9EAFD3A51EDBB34D0053E2F8 /* STNavBarView.m in Sources */,
 				9EAFD4361EDBF6F20053E2F8 /* HyPopMenuView.m in Sources */,
-				9EAFD43D1EDBF7350053E2F8 /* PopMenuCenter.m in Sources */,
 				9EAFD3BF1EDBD9DD0053E2F8 /* ChatViewC.m in Sources */,
 				9EAFD3B11EDBB8E50053E2F8 /* HomeView.m in Sources */,
 				9E47DA5B1EDEC57A00C524A7 /* STMoreViewCScrollView.m in Sources */,

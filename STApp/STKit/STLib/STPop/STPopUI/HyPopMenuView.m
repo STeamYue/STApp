@@ -86,6 +86,7 @@ static BOOL isAlpha = false;
         [bottomView setTag:2];
         _bottomView = bottomView;
     }
+    _bottomView.hidden = YES;
     bottomView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin;
     bottomView.frame = CGRectMake(0, CGRectGetMaxY(self.bounds) - 52, kW, 52);
     [bottomView setBackgroundColor:[UIColor colorWithWhite:1.f alpha:0.90f]];

@@ -34,7 +34,10 @@
        // _playerViewC.view.backgroundColor = [UIColor redColor];
         _playerViewC.view.frame = self.view.frame;
         _playerViewC.allowsPictureInPicturePlayback = false;
-        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(runLoopTheMovie:) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
+        [[NSNotificationCenter defaultCenter]addObserver:self
+                                                selector:@selector(runLoopTheMovie:)
+                                                    name:AVPlayerItemDidPlayToEndTimeNotification
+                                                  object:nil];
 
     }
     return _playerViewC;
