@@ -7,7 +7,7 @@
 //
 
 #import "StoreViewC.h"
-
+#import "ThirdIteamLayout.h"
 @interface StoreViewC ()
 
 @end
@@ -24,14 +24,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (StoreView *)storeView{
+    if (!_storeView) {
+        _storeView = (StoreView *) [StoreView showSTBaseViewOnSuperView:self.view
+                                                           andFrameRect:self.view.frame
+                                                            andComplete:^(BOOL finished,
+                                                                          STBaseView *stBaseView) {
+            
+        }];
+       // _storeView.layout = [[ThirdIteamLayout alloc]init];
+    }
+    return _storeView;
 }
-*/
-
 @end

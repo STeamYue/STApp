@@ -7,7 +7,8 @@
 //
 
 #import "STTableViewBaseView.h"
+#import "STEvenLyCollectionView.h"
 
-@interface StoreView : STTableViewBaseView
+@interface StoreView : STEvenLyCollectionView
 
 @end

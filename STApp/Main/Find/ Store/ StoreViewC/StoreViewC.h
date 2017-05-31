@@ -7,7 +7,8 @@
 //
 
 #import "STBaseViewC.h"
-
+#import "ThirdIteamLayout.h"
+#import "StoreView.h"
 @interface StoreViewC : STBaseViewC
-
+@property (nonatomic, strong) StoreView *storeView;
 @end

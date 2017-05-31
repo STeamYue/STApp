@@ -7,15 +7,33 @@
 //
 
 #import "StoreView.h"
-
+#import "StoreCell.h"
+#import "ThirdIteamLayout.h"
 @implementation StoreView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    if (self = [super initWithCoder:aDecoder]) {
+    }
+    return self;
 }
-*/
+-(void)awakeFromNib{
+    [super awakeFromNib];
+    self.dataSoureArray = @[@"1",@"2",@"1",@"2",@"1",@"2",@"1",@"2"].mutableCopy;
+    [self setLayout:[ThirdIteamLayout new]];
+    [self collectionView];
+    [self registeCell];
+}
 
+- (void) registeCell{
+
+    [self.collectionView registerNib:[UINib nibWithNibName:@"StoreCell"
+                                                    bundle:nil]
+          forCellWithReuseIdentifier:@"StoreCell"];
+}
+
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    StoreCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"StoreCell"
+                                                                forIndexPath:indexPath];
+    return cell;
+}
 @end

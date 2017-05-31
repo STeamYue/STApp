@@ -84,7 +84,7 @@
                                                                                      STBaseViewC *stBaseViewC) {
                                                                            
                                                                        }];
-    
+    [storeViewC storeView];
     self.viewCMArray = @[attentionViewC,dynamicViewC,storeViewC].mutableCopy;
     @autoreleasepool {
         for (int i = 0 ; i<self.viewCMArray.count;i++)
