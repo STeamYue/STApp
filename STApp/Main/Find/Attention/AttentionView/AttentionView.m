@@ -7,15 +7,32 @@
 //
 
 #import "AttentionView.h"
-
+#import "AttentionCell.h"
 @implementation AttentionView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    if (self = [super initWithCoder:aDecoder]) {
+    }
+    return self;
 }
-*/
+-(void)awakeFromNib{
+    [super awakeFromNib];
+    [self tableView].frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT-100);
+    self.dataSoureArray = @[@"1",@"2",@"1",@"2",@"1",@"2",@"1",@"2"].mutableCopy;
+    [self registCell];
+}
+
+- (void)registCell{
+    [self.tableView registerNib:[UINib nibWithNibName:@"AttentionCell"
+                                               bundle:nil]
+         forCellReuseIdentifier:@"AttentionCell"];
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    AttentionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AttentionCell" forIndexPath:indexPath];
+    return cell;
+}
+-(CGFloat )tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 70;
+}
 
 @end

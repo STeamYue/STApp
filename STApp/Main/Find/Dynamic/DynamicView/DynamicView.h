@@ -7,7 +7,7 @@
 //
 
 #import "STTableViewBaseView.h"
-
+#import "DynamicModel.h"
 @interface DynamicView : STTableViewBaseView
 
 @end

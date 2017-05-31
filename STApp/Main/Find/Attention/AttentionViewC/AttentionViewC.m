@@ -33,5 +33,15 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+- (AttentionView *)attentionView{
+    if (!_attentionView) {
+        _attentionView = (AttentionView *)[AttentionView showSTBaseViewOnSuperView:self.view
+                                                                andFrameRect:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)
+                                                                 andComplete:^(BOOL finished,
+                                                                               STBaseView *stBaseView) {
+                                                                     
+                                                                 }];
+    }
+    return _attentionView;
+}
 @end

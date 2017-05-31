@@ -22,8 +22,6 @@
  */
 -(instancetype)initWithCoder:(NSCoder *)aDecoder{
     if (self = [super initWithCoder:aDecoder]) {
-        //因没实力化，子控件要在from nib 写
-        self.backgroundColor = [UIColor blueColor];
     }
     return self;
 }
@@ -35,7 +33,6 @@
 - (void)showInit{
     [self addSubview: [self scrollView]];   //添加scrollView
     [self addSubview: [self titleView]];  //添加 titleView
-    self.titleView.backgroundColor = [UIColor blueColor];
     self.scrollView.pagingEnabled = YES;  //设置分页
      self.scrollView.showsHorizontalScrollIndicator = NO;
    self.scrollView.showsVerticalScrollIndicator = NO;
@@ -47,7 +44,8 @@
     @autoreleasepool {
         for (int i = 0; i<self.titleMArray.count;i++) {
             UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake((spaceValue+30)*(i+1),20,60, 30)];
-            btn.backgroundColor = [UIColor greenColor];
+            [btn setTitleColor:[UIColor lightGrayColor]
+                      forState:UIControlStateNormal];
             btn.tag = i+1;
             [btn setTitle:self.titleMArray[i]
                  forState:UIControlStateNormal];
@@ -64,30 +62,28 @@
     }
     //
     AttentionViewC *attentionViewC = (AttentionViewC *)[AttentionViewC showSTBaseViewCOnSuperViewC:nil
-                                                                                      andFrameRect: CGRectMake(0,0,self.scrollView.frame.size.width,self.scrollView.frame.size.height)
+                                                                                      andFrameRect: CGRectMake(0,0,0,0)
                                                                           andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                                        andComplete:^(BOOL finished,
                                                                                                      STBaseViewC *stBaseViewC) {
                                                                                            
                                                                                        }];
-    attentionViewC.view.backgroundColor = [UIColor redColor];
-    
+    [attentionViewC attentionView];
     DynamicViewC *dynamicViewC = (DynamicViewC *)[DynamicViewC showSTBaseViewCOnSuperViewC:nil
-                                                                              andFrameRect: CGRectMake(self.scrollView.frame.size.width,0,self.scrollView.frame.size.width,self.scrollView.frame.size.height)
+                                                                              andFrameRect: CGRectMake(0,0,0,0)
                                                                   andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                                andComplete:^(BOOL finished,
                                                                                              STBaseViewC *stBaseViewC) {
                                                                                    
                                                                                }];
-    dynamicViewC.view.backgroundColor = [UIColor greenColor];
+    [dynamicViewC dynamicView];
     StoreViewC *storeViewC = (StoreViewC *)[StoreViewC showSTBaseViewCOnSuperViewC:nil
-                                                                      andFrameRect:CGRectMake(self.scrollView.frame.size.width*2,0,self.scrollView.frame.size.width,self.scrollView.frame.size.height)
+                                                                      andFrameRect:CGRectMake(0 ,0,0,0)
                                                           andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                        andComplete:^(BOOL finished,
                                                                                      STBaseViewC *stBaseViewC) {
                                                                            
                                                                        }];
-    storeViewC.view.backgroundColor = [UIColor grayColor];
     
     self.viewCMArray = @[attentionViewC,dynamicViewC,storeViewC].mutableCopy;
     @autoreleasepool {
@@ -104,7 +100,7 @@
         return;
     }
     if (_recordSelectBtn) {
-        [_recordSelectBtn setTitleColor:[UIColor whiteColor]
+        [_recordSelectBtn setTitleColor:[UIColor lightGrayColor]
                                forState:UIControlStateNormal];
     }
     [sender setTitleColor:[UIColor redColor] forState:UIControlStateNormal];

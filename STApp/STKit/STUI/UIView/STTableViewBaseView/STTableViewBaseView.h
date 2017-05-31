@@ -16,7 +16,7 @@
 @end
 @interface STTableViewBaseView : STBaseView <UITableViewDelegate,UITableViewDataSource,STNavBarViewDelegate>
 //@property(nonatomic,strong) STNavView                      *stNavView;   //custom stNavView
-@property(nonatomic,strong) STNavBarView                   *stNavBarView;
+//@property(nonatomic,strong) STNavBarView                   *stNavBarView;
 @property (nonatomic,strong)UITableView                    *tableView;
 @property (nonatomic,strong)NSMutableArray                 *dataSoureArray;
 @property (nonatomic,weak) id<STTableViewBaseViewDelegate> baseDelegate;

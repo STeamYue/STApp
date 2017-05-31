@@ -20,6 +20,11 @@
 		9E28483A1EDBB21900F30EF4 /* PersonalViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E2848381EDBB21900F30EF4 /* PersonalViewC.xib */; };
 		9E2848401EDBB2A400F30EF4 /* STBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E28483F1EDBB2A400F30EF4 /* STBaseView.m */; };
 		9E2848441EDBB2FC00F30EF4 /* STTableViewBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2848431EDBB2FC00F30EF4 /* STTableViewBaseView.m */; };
+		9E47DA371EDEA1A300C524A7 /* DynamicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA361EDEA1A300C524A7 /* DynamicModel.m */; };
+		9E47DA3D1EDEA1FD00C524A7 /* DynamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA3B1EDEA1FD00C524A7 /* DynamicCell.m */; };
+		9E47DA3E1EDEA1FD00C524A7 /* DynamicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E47DA3C1EDEA1FD00C524A7 /* DynamicCell.xib */; };
+		9E47DA501EDEC20C00C524A7 /* AttentionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA4E1EDEC20C00C524A7 /* AttentionCell.m */; };
+		9E47DA511EDEC20C00C524A7 /* AttentionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E47DA4F1EDEC20C00C524A7 /* AttentionCell.xib */; };
 		9EABABDE1EDDBF900011DF54 /*  StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EABABBC1EDDBF900011DF54 /*  StoreView.xib */; };
 		9EABABDF1EDDBF900011DF54 /* StoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EABABBE1EDDBF900011DF54 /* StoreView.m */; };
 		9EABABE01EDDBF900011DF54 /* StoreViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EABABC11EDDBF900011DF54 /* StoreViewC.m */; };
@@ -115,6 +120,14 @@
 		9E28483F1EDBB2A400F30EF4 /* STBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseView.m; sourceTree = "<group>"; };
 		9E2848421EDBB2FC00F30EF4 /* STTableViewBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewBaseView.h; sourceTree = "<group>"; };
 		9E2848431EDBB2FC00F30EF4 /* STTableViewBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewBaseView.m; sourceTree = "<group>"; };
+		9E47DA351EDEA1A300C524A7 /* DynamicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicModel.h; sourceTree = "<group>"; };
+		9E47DA361EDEA1A300C524A7 /* DynamicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicModel.m; sourceTree = "<group>"; };
+		9E47DA3A1EDEA1FD00C524A7 /* DynamicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicCell.h; sourceTree = "<group>"; };
+		9E47DA3B1EDEA1FD00C524A7 /* DynamicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicCell.m; sourceTree = "<group>"; };
+		9E47DA3C1EDEA1FD00C524A7 /* DynamicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicCell.xib; sourceTree = "<group>"; };
+		9E47DA4D1EDEC20C00C524A7 /* AttentionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionCell.h; sourceTree = "<group>"; };
+		9E47DA4E1EDEC20C00C524A7 /* AttentionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionCell.m; sourceTree = "<group>"; };
+		9E47DA4F1EDEC20C00C524A7 /* AttentionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttentionCell.xib; sourceTree = "<group>"; };
 		9EABABBC1EDDBF900011DF54 /*  StoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = " StoreView.xib"; sourceTree = "<group>"; };
 		9EABABBD1EDDBF900011DF54 /* StoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreView.h; sourceTree = "<group>"; };
 		9EABABBE1EDDBF900011DF54 /* StoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreView.m; sourceTree = "<group>"; };
@@ -443,6 +456,74 @@
 			path = STTableViewBaseView;
 			sourceTree = "<group>";
 		};
+		9E47DA331EDEA1A300C524A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA341EDEA1A300C524A7 /* DynamicModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E47DA341EDEA1A300C524A7 /* DynamicModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA351EDEA1A300C524A7 /* DynamicModel.h */,
+				9E47DA361EDEA1A300C524A7 /* DynamicModel.m */,
+			);
+			path = DynamicModel;
+			sourceTree = "<group>";
+		};
+		9E47DA381EDEA1CA00C524A7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA391EDEA1DB00C524A7 /* DynamicCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9E47DA391EDEA1DB00C524A7 /* DynamicCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA3A1EDEA1FD00C524A7 /* DynamicCell.h */,
+				9E47DA3B1EDEA1FD00C524A7 /* DynamicCell.m */,
+				9E47DA3C1EDEA1FD00C524A7 /* DynamicCell.xib */,
+			);
+			path = DynamicCell;
+			sourceTree = "<group>";
+		};
+		9E47DA3F1EDEBEC700C524A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA401EDEBEE700C524A7 /* AttentionModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E47DA401EDEBEE700C524A7 /* AttentionModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AttentionModel;
+			sourceTree = "<group>";
+		};
+		9E47DA461EDEC0DE00C524A7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA471EDEC0DE00C524A7 /* AttentionCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9E47DA471EDEC0DE00C524A7 /* AttentionCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DA4D1EDEC20C00C524A7 /* AttentionCell.h */,
+				9E47DA4E1EDEC20C00C524A7 /* AttentionCell.m */,
+				9E47DA4F1EDEC20C00C524A7 /* AttentionCell.xib */,
+			);
+			path = AttentionCell;
+			sourceTree = "<group>";
+		};
 		9EABABBA1EDDBF900011DF54 /*  Store */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +556,8 @@
 		9EABABC31EDDBF900011DF54 /* Attention */ = {
 			isa = PBXGroup;
 			children = (
+				9E47DA461EDEC0DE00C524A7 /* Cell */,
+				9E47DA3F1EDEBEC700C524A7 /* Model */,
 				9EABABC41EDDBF900011DF54 /* AttentionView */,
 				9EABABC81EDDBF900011DF54 /* AttentionViewC */,
 			);
@@ -504,6 +587,8 @@
 		9EABABCC1EDDBF900011DF54 /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				9E47DA381EDEA1CA00C524A7 /* Cell */,
+				9E47DA331EDEA1A300C524A7 /* Model */,
 				9EABABCD1EDDBF900011DF54 /* DynamicView */,
 				9EABABD11EDDBF900011DF54 /* DynamicViewC */,
 			);
@@ -946,6 +1031,7 @@
 				9EABABE31EDDBF900011DF54 /* AttentionView.xib in Resources */,
 				9EF42DEC1EDD6FF8002B7AE9 /* ZoneView.xib in Resources */,
 				9EAFD3C51EDBDA190053E2F8 /* ChatVIew.xib in Resources */,
+				9E47DA511EDEC20C00C524A7 /* AttentionCell.xib in Resources */,
 				9EABABED1EDDBF900011DF54 /* FindViewC.xib in Resources */,
 				9E2847F51EDB969A00F30EF4 /* LaunchScreen.storyboard in Resources */,
 				9EAFD3C01EDBD9DD0053E2F8 /* ChatViewC.xib in Resources */,
@@ -957,6 +1043,7 @@
 				9E2847F21EDB969A00F30EF4 /* Assets.xcassets in Resources */,
 				9E2847F01EDB969A00F30EF4 /* Main.storyboard in Resources */,
 				9EF42DEE1EDD6FF8002B7AE9 /* ZoneViewC.xib in Resources */,
+				9E47DA3E1EDEA1FD00C524A7 /* DynamicCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1033,11 +1120,13 @@
 				9EABABEA1EDDBF900011DF54 /* FindView.m in Sources */,
 				9EF42DEB1EDD6FF8002B7AE9 /* ZoneView.m in Sources */,
 				9E28482C1EDBAA9800F30EF4 /* STBaseViewC.m in Sources */,
+				9E47DA501EDEC20C00C524A7 /* AttentionCell.m in Sources */,
 				9EF42DE11EDD6CEB002B7AE9 /* STMoreViewCScrollView.m in Sources */,
 				9EAFD4391EDBF6F20053E2F8 /* UIColor+ImageGetColor.m in Sources */,
 				9EABABEC1EDDBF900011DF54 /* FindViewC.m in Sources */,
 				9EAFD4481EDC29CF0053E2F8 /* LoginView.m in Sources */,
 				9EAFD4381EDBF6F20053E2F8 /* PopMenuModel.m in Sources */,
+				9E47DA3D1EDEA1FD00C524A7 /* DynamicCell.m in Sources */,
 				9EAFD4541EDC2DDC0053E2F8 /* LoginViewC.m in Sources */,
 				9EAFD4721EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m in Sources */,
 				9EABABE81EDDBF900011DF54 /* DynamicViewC.m in Sources */,
@@ -1062,6 +1151,7 @@
 				9EABABE01EDDBF900011DF54 /* StoreViewC.m in Sources */,
 				9EF42DED1EDD6FF8002B7AE9 /* ZoneViewC.m in Sources */,
 				9E2848391EDBB21900F30EF4 /* PersonalViewC.m in Sources */,
+				9E47DA371EDEA1A300C524A7 /* DynamicModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

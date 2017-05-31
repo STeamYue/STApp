@@ -41,7 +41,6 @@
                                                                       STBaseView *stBaseView) {
             
         }];
-        _findView.backgroundColor = [UIColor orangeColor];
     }
     return _findView;
 }

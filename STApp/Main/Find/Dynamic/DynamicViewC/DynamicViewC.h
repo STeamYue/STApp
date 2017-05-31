@@ -7,7 +7,7 @@
 //
 
 #import "STBaseViewC.h"
-
+#import "DynamicView.h"
 @interface DynamicViewC : STBaseViewC
-
+@property (nonatomic, strong) DynamicView *dynamicView;
 @end

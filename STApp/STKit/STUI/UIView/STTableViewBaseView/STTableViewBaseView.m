@@ -32,21 +32,21 @@
 //}
 #pragma *************************** Getter ***************************
 #pragma mark --- stNavView
--(STNavBarView *)stNavBarView{
-    if (!_stNavBarView) {
-        _stNavBarView =(STNavBarView *)[STNavBarView showSTBaseViewOnSuperView:self
-                                                                  andFrameRect:CGRectMake(0,0,SCREEN_WIDTH,64)
-                                                                   andComplete:^(BOOL finished,
-                                                                                 STBaseView *stBaseView) {
-        }];
-        [_stNavBarView setDelegate:self];
-    }
-    return _stNavBarView;
-}
+//-(STNavBarView *)stNavBarView{
+//    if (!_stNavBarView) {
+//        _stNavBarView =(STNavBarView *)[STNavBarView showSTBaseViewOnSuperView:self
+//                                                                  andFrameRect:CGRectMake(0,0,SCREEN_WIDTH,64)
+//                                                                   andComplete:^(BOOL finished,
+//                                                                                 STBaseView *stBaseView) {
+//        }];
+//        [_stNavBarView setDelegate:self];
+//    }
+//    return _stNavBarView;
+//}
 #pragma mark --- tableView
 -(UITableView *)tableView{
     if (!_tableView) {
-        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,64,SCREEN_WIDTH,SCREEN_HEIGHT-64)
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-64)
                                                  style:UITableViewStylePlain];
 //        _tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;

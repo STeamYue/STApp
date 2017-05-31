@@ -7,7 +7,7 @@
 //
 
 #import "STBaseViewC.h"
-
+#import "AttentionView.h"
 @interface AttentionViewC : STBaseViewC
-
+@property (nonatomic,strong)AttentionView *attentionView;
 @end
