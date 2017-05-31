@@ -1,14 +1,14 @@
 //
-//  ZoneView.m
+//  DynamicView.m
 //  STApp
 //
-//  Created by 岳克奎 on 17/5/29.
+//  Created by 岳克奎 on 17/5/30.
 //  Copyright © 2017年 SlienceTeam. All rights reserved.
 //
 
-#import "ZoneView.h"
+#import "DynamicView.h"
 
-@implementation ZoneView
+@implementation DynamicView
 
 /*
 // Only override drawRect: if you perform custom drawing.

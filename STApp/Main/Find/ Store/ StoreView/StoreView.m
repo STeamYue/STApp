@@ -1,15 +1,14 @@
-
 //
-//  FindView.m
+//  StoreView.m
 //  STApp
 //
-//  Created by 岳克奎 on 17/5/29.
+//  Created by 岳克奎 on 17/5/30.
 //  Copyright © 2017年 SlienceTeam. All rights reserved.
 //
 
-#import "FindView.h"
+#import "StoreView.h"
 
-@implementation FindView
+@implementation StoreView
 
 /*
 // Only override drawRect: if you perform custom drawing.

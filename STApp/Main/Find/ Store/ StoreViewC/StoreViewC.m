@@ -1,18 +1,18 @@
 //
-//  FindViewC.m
+//  StoreViewC.m
 //  STApp
 //
-//  Created by 岳克奎 on 17/5/29.
+//  Created by 岳克奎 on 17/5/30.
 //  Copyright © 2017年 SlienceTeam. All rights reserved.
 //
 
-#import "FindViewC.h"
+#import "StoreViewC.h"
 
-@interface FindViewC ()
+@interface StoreViewC ()
 
 @end
 
-@implementation FindViewC
+@implementation StoreViewC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

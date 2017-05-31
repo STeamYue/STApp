@@ -45,15 +45,17 @@
     UINavigationController *homeNavC = [[UINavigationController alloc] initWithRootViewController:homeViewC];
     homeNavC.navigationBar.hidden = YES;
     //1-- 发现
-    FindViewC *findViewC = (FindViewC *)[ChatViewC showSTBaseViewCOnSuperViewC:nil
+    FindViewC *findViewC = (FindViewC *)[FindViewC showSTBaseViewCOnSuperViewC:nil
                                                                   andFrameRect:CGRectMake(0, 0, SCREEN_HEIGHT, SCREEN_HEIGHT)
                                                       andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                    andComplete:^(BOOL finished,
                                                                                  STBaseViewC *stBaseViewC) {
                                                                    }];
     findViewC.recordTabBarC = self;     //记录
-    findViewC.title = @"发现";
+    //findViewC.title = @"发现";
+    [findViewC findView];
     UINavigationController *findNavC = [[UINavigationController alloc] initWithRootViewController:findViewC];
+    findNavC.navigationBar.hidden = YES;
 
     //2-- 中间动态
     ZoneViewC *zoneViewC = (ZoneViewC *)[ChatViewC showSTBaseViewCOnSuperViewC:nil

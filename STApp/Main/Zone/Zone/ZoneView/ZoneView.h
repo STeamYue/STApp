@@ -1,5 +1,5 @@
 //
-//  FindView.h
+//  ZoneView.h
 //  STApp
 //
 //  Created by 岳克奎 on 17/5/29.
@@ -7,7 +7,6 @@
 //
 
 #import "STBaseView.h"
-
-@interface FindView : STBaseView
+@interface ZoneView : STBaseView
 
 @end
