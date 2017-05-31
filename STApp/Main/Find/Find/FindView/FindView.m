@@ -55,6 +55,11 @@
                     action:@selector(showSelectViewC:)
           forControlEvents:UIControlEventTouchUpInside];
             [[self titleView] addSubview:btn];
+                //默认第二个
+            if (i == 1) {
+                [self showSelectViewC:btn];
+            }
+            
         }
     }
     //
