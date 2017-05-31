@@ -36,11 +36,12 @@
 - (FindView *)findView{
     if (!_findView) {
         _findView =(FindView *) [FindView showSTBaseViewOnSuperView:self.view
-                                                       andFrameRect:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+                                                       andFrameRect:self.view.frame
                                                         andComplete:^(BOOL finished,
                                                                       STBaseView *stBaseView) {
             
         }];
+        _findView.backgroundColor = [UIColor orangeColor];
     }
     return _findView;
 }

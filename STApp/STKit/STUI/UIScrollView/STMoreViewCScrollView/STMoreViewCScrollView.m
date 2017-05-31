@@ -26,7 +26,8 @@
 - (UIScrollView *)scrollView{
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc]init];
-        _scrollView.frame = CGRectMake(0,50, SCREEN_WIDTH, SCREEN_HEIGHT-50-50);
+        _scrollView.frame = CGRectMake(0,50, SCREEN_WIDTH, SCREEN_HEIGHT-100);
+        _scrollView.backgroundColor = [UIColor blackColor];
         _scrollView.contentSize = CGSizeMake(SCREEN_WIDTH*3, 0);
     }
     return _scrollView;

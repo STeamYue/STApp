@@ -23,7 +23,7 @@
 -(instancetype)initWithCoder:(NSCoder *)aDecoder{
     if (self = [super initWithCoder:aDecoder]) {
         //因没实力化，子控件要在from nib 写
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor blueColor];
     }
     return self;
 }
@@ -35,10 +35,10 @@
 - (void)showInit{
     [self addSubview: [self scrollView]];   //添加scrollView
     [self addSubview: [self titleView]];  //添加 titleView
-    //self.scrollView.pagingEnabled = YES;  //设置分页
-    self.scrollView.showsHorizontalScrollIndicator = NO;
-    self.scrollView.showsVerticalScrollIndicator = NO;
-    //self.scrollView.pagingEnabled = YES;
+    self.titleView.backgroundColor = [UIColor blueColor];
+    self.scrollView.pagingEnabled = YES;  //设置分页
+     self.scrollView.showsHorizontalScrollIndicator = NO;
+   self.scrollView.showsVerticalScrollIndicator = NO;
     //默认0
     //    [self.scrollView setContentOffset:CGPointMake(0, 0) animated:NO];
     //间距
@@ -63,8 +63,8 @@
         }
     }
     //
-    AttentionViewC *attentionViewC = (AttentionViewC *)[AttentionViewC showSTBaseViewCOnSuperViewC:self.recordSupreViewC
-                                                                                      andFrameRect:CGRectMake(0, 0, 0, 0)
+    AttentionViewC *attentionViewC = (AttentionViewC *)[AttentionViewC showSTBaseViewCOnSuperViewC:nil
+                                                                                      andFrameRect: CGRectMake(0,0,self.scrollView.frame.size.width,self.scrollView.frame.size.height)
                                                                           andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                                        andComplete:^(BOOL finished,
                                                                                                      STBaseViewC *stBaseViewC) {
@@ -72,16 +72,16 @@
                                                                                        }];
     attentionViewC.view.backgroundColor = [UIColor redColor];
     
-    DynamicViewC *dynamicViewC = (DynamicViewC *)[DynamicViewC showSTBaseViewCOnSuperViewC:self.recordSupreViewC
-                                                                              andFrameRect:CGRectMake(0, 0, 0, 0)
+    DynamicViewC *dynamicViewC = (DynamicViewC *)[DynamicViewC showSTBaseViewCOnSuperViewC:nil
+                                                                              andFrameRect: CGRectMake(self.scrollView.frame.size.width,0,self.scrollView.frame.size.width,self.scrollView.frame.size.height)
                                                                   andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                                andComplete:^(BOOL finished,
                                                                                              STBaseViewC *stBaseViewC) {
                                                                                    
                                                                                }];
     dynamicViewC.view.backgroundColor = [UIColor greenColor];
-    StoreViewC *storeViewC = (StoreViewC *)[StoreViewC showSTBaseViewCOnSuperViewC:self.recordSupreViewC
-                                                                      andFrameRect:CGRectMake(0, 0, 0, 0)
+    StoreViewC *storeViewC = (StoreViewC *)[StoreViewC showSTBaseViewCOnSuperViewC:nil
+                                                                      andFrameRect:CGRectMake(self.scrollView.frame.size.width*2,0,self.scrollView.frame.size.width,self.scrollView.frame.size.height)
                                                           andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                        andComplete:^(BOOL finished,
                                                                                      STBaseViewC *stBaseViewC) {
