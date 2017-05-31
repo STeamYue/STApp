@@ -17,28 +17,12 @@
 }
 - (void)setupLayout
 {
-    
-    //    CGFloat inset  = self.collectionView.bounds.size.width * (6/64.0f);
-    //    inset = floor(inset);
-    //
-    //    self.itemSize = CGSizeMake(self.collectionView.bounds.size.width - (2 *inset), self.collectionView.bounds.size.height * 3/4);
-    //    self.sectionInset = UIEdgeInsetsMake(0,inset, 0,inset);
     //滚动方向
-    //self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-//    
-//    if(_numberItem == 0){
-//        _numberItem = 3;
-//    }
-//    if (_numberItem == 3) {
+    self.scrollDirection = UICollectionViewScrollDirectionVertical;
+
         // 设置大小
         self.itemSize =CGSizeMake((SCREEN_WIDTH-3*8)/3,(SCREEN_WIDTH-3*8)/3);
-        self.sectionInset = UIEdgeInsetsMake(1,1,1,1);
+        self.sectionInset = UIEdgeInsetsMake(0,0,0,0);
         self.minimumInteritemSpacing=1;
-//    }
-//    
-//    //4个
-//    self.itemSize =CGSizeMake((SCREEN_WIDTH-_numberItem*10-10)/_numberItem,(SCREEN_WIDTH-_numberItem*10-10)/_numberItem);
-//    self.sectionInset = UIEdgeInsetsMake(10,10,10,10);
-//    
 }
 @end

@@ -35,7 +35,9 @@
 */
 - (LoginView *)loginView{
     if (!_loginView) {
-        _loginView = (LoginView *)[LoginView showSTBaseViewOnSuperView:self.view andFrameRect:CGRectMake(0,0, SCREEN_WIDTH, SCREEN_HEIGHT) andComplete:^(BOOL finished, STBaseView *stBaseView) {
+        _loginView = (LoginView *)[LoginView showSTBaseViewOnSuperView:self.view
+                                                          andFrameRect:self.view.frame
+                                                           andComplete:^(BOOL finished, STBaseView *stBaseView) {
             
         }];
     }

@@ -32,7 +32,7 @@
         _playerViewC.showsPlaybackControls = false;
         _playerViewC.videoGravity = AVLayerVideoGravityResizeAspect;
        // _playerViewC.view.backgroundColor = [UIColor redColor];
-        _playerViewC.view.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+        _playerViewC.view.frame = self.view.frame;
         _playerViewC.allowsPictureInPicturePlayback = false;
         [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(runLoopTheMovie:) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
 
