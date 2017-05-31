@@ -38,7 +38,7 @@
     //self.scrollView.pagingEnabled = YES;  //设置分页
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.showsVerticalScrollIndicator = NO;
-    self.scrollView.pagingEnabled = YES;
+    //self.scrollView.pagingEnabled = YES;
     //默认0
     //    [self.scrollView setContentOffset:CGPointMake(0, 0) animated:NO];
     //间距
@@ -94,7 +94,7 @@
         for (int i = 0 ; i<self.viewCMArray.count;i++)
         {
             UIViewController *viewC = self.viewCMArray[i];
-            viewC.view.frame = CGRectMake(SCREEN_WIDTH*i,44, SCREEN_WIDTH, SCREEN_HEIGHT-50);
+            viewC.view.frame = CGRectMake(self.scrollView.frame.size.width*i,0,self.scrollView.frame.size.width,self.scrollView.frame.size.height);
             [self.scrollView addSubview:viewC.view];
         }
     }

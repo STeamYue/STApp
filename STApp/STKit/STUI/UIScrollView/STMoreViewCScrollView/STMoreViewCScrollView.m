@@ -19,14 +19,14 @@
 */
 -(UIView *)titleView{
     if (!_titleView) {
-        _titleView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
+        _titleView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH,50)];
     }
     return _titleView;
 }
 - (UIScrollView *)scrollView{
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc]init];
-        _scrollView.frame = CGRectMake(0,44, SCREEN_WIDTH, SCREEN_HEIGHT-50-50);
+        _scrollView.frame = CGRectMake(0,50, SCREEN_WIDTH, SCREEN_HEIGHT-50-50);
         _scrollView.contentSize = CGSizeMake(SCREEN_WIDTH*3, 0);
     }
     return _scrollView;
