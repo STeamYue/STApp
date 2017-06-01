@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1FA56E919CAF1C94400B22B7B9BEEF09'
+               BlueprintIdentifier = 'C43EAA3A7D2B400B1AD4A48F254951C6'
                BlueprintName = 'Pods-STApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-STApp.a'>

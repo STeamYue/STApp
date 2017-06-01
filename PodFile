@@ -7,5 +7,6 @@ target 'STApp' do
 pod 'XMNetworking'
 pod 'MJExtension'
 pod 'IQKeyboardManager'
-pod 'pop'
+pod 'pop' 
+pod 'GPUImage' 
 end

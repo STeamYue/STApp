@@ -33,7 +33,10 @@
 		9E47DA711EDED56400C524A7 /* StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E47DA701EDED56400C524A7 /* StoreView.xib */; };
 		9E47DA771EDEF70800C524A7 /* STPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA761EDEF70800C524A7 /* STPopMenu.m */; };
 		9E47DA7B1EDEFCF100C524A7 /* ThirdLibPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA7A1EDEFCF100C524A7 /* ThirdLibPopMenu.m */; };
-		9E47DA7F1EDF051800C524A7 /* TabBarCPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E47DA7E1EDF051800C524A7 /* TabBarCPopMenu.m */; };
+		9E7815141EDFB6C300BC7A8A /* STBeautyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7815101EDFB6C300BC7A8A /* STBeautyView.m */; };
+		9E7815151EDFB6C300BC7A8A /* STBeautyViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7815131EDFB6C300BC7A8A /* STBeautyViewC.m */; };
+		9E7815181EDFBD7700BC7A8A /* LFGPUImageBeautyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7815171EDFBD7700BC7A8A /* LFGPUImageBeautyFilter.m */; };
+		9E78151C1EDFC06000BC7A8A /* TabBarCPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E78151B1EDFC06000BC7A8A /* TabBarCPopMenu.m */; };
 		9EABABDF1EDDBF900011DF54 /* StoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EABABBE1EDDBF900011DF54 /* StoreView.m */; };
 		9EABABE01EDDBF900011DF54 /* StoreViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EABABC11EDDBF900011DF54 /* StoreViewC.m */; };
 		9EABABE11EDDBF900011DF54 /* StoreViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EABABC21EDDBF900011DF54 /* StoreViewC.xib */; };
@@ -146,8 +149,14 @@
 		9E47DA761EDEF70800C524A7 /* STPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopMenu.m; sourceTree = "<group>"; };
 		9E47DA791EDEFCF100C524A7 /* ThirdLibPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdLibPopMenu.h; sourceTree = "<group>"; };
 		9E47DA7A1EDEFCF100C524A7 /* ThirdLibPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdLibPopMenu.m; sourceTree = "<group>"; };
-		9E47DA7D1EDF051800C524A7 /* TabBarCPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCPopMenu.h; sourceTree = "<group>"; };
-		9E47DA7E1EDF051800C524A7 /* TabBarCPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCPopMenu.m; sourceTree = "<group>"; };
+		9E78150F1EDFB6C300BC7A8A /* STBeautyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBeautyView.h; sourceTree = "<group>"; };
+		9E7815101EDFB6C300BC7A8A /* STBeautyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBeautyView.m; sourceTree = "<group>"; };
+		9E7815121EDFB6C300BC7A8A /* STBeautyViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBeautyViewC.h; sourceTree = "<group>"; };
+		9E7815131EDFB6C300BC7A8A /* STBeautyViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBeautyViewC.m; sourceTree = "<group>"; };
+		9E7815161EDFBD7700BC7A8A /* LFGPUImageBeautyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFGPUImageBeautyFilter.h; sourceTree = "<group>"; };
+		9E7815171EDFBD7700BC7A8A /* LFGPUImageBeautyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGPUImageBeautyFilter.m; sourceTree = "<group>"; };
+		9E78151A1EDFC06000BC7A8A /* TabBarCPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCPopMenu.h; sourceTree = "<group>"; };
+		9E78151B1EDFC06000BC7A8A /* TabBarCPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCPopMenu.m; sourceTree = "<group>"; };
 		9EABABBD1EDDBF900011DF54 /* StoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreView.h; sourceTree = "<group>"; };
 		9EABABBE1EDDBF900011DF54 /* StoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreView.m; sourceTree = "<group>"; };
 		9EABABC01EDDBF900011DF54 /* StoreViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreViewC.h; sourceTree = "<group>"; };
@@ -328,6 +337,7 @@
 		9E2848181EDB9AD200F30EF4 /* STKit */ = {
 			isa = PBXGroup;
 			children = (
+				9E78150C1EDFB47B00BC7A8A /* STPlugin */,
 				9EAFD3E11EDBF6F20053E2F8 /* STLib */,
 				9E28481C1EDB9B2E00F30EF4 /* STCommon */,
 				9E28481B1EDB9B1F00F30EF4 /* STUI */,
@@ -358,7 +368,6 @@
 		9E28481D1EDBA46B00F30EF4 /* UITabBarC */ = {
 			isa = PBXGroup;
 			children = (
-				9E47DA7C1EDF050900C524A7 /* TabBarCPopMenu */,
 				9E28481E1EDBA49400F30EF4 /* STMainTabBarC */,
 			);
 			path = UITabBarC;
@@ -640,11 +649,48 @@
 			path = ThirdLibPopMenu;
 			sourceTree = "<group>";
 		};
-		9E47DA7C1EDF050900C524A7 /* TabBarCPopMenu */ = {
+		9E78150C1EDFB47B00BC7A8A /* STPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				9E47DA7D1EDF051800C524A7 /* TabBarCPopMenu.h */,
-				9E47DA7E1EDF051800C524A7 /* TabBarCPopMenu.m */,
+				9E78150D1EDFB6C300BC7A8A /* STBeautyViewC */,
+			);
+			path = STPlugin;
+			sourceTree = "<group>";
+		};
+		9E78150D1EDFB6C300BC7A8A /* STBeautyViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E7815161EDFBD7700BC7A8A /* LFGPUImageBeautyFilter.h */,
+				9E7815171EDFBD7700BC7A8A /* LFGPUImageBeautyFilter.m */,
+				9E78150E1EDFB6C300BC7A8A /* STBeautyView */,
+				9E7815111EDFB6C300BC7A8A /* STBeautyViewC */,
+			);
+			path = STBeautyViewC;
+			sourceTree = "<group>";
+		};
+		9E78150E1EDFB6C300BC7A8A /* STBeautyView */ = {
+			isa = PBXGroup;
+			children = (
+				9E78150F1EDFB6C300BC7A8A /* STBeautyView.h */,
+				9E7815101EDFB6C300BC7A8A /* STBeautyView.m */,
+			);
+			path = STBeautyView;
+			sourceTree = "<group>";
+		};
+		9E7815111EDFB6C300BC7A8A /* STBeautyViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E7815121EDFB6C300BC7A8A /* STBeautyViewC.h */,
+				9E7815131EDFB6C300BC7A8A /* STBeautyViewC.m */,
+			);
+			path = STBeautyViewC;
+			sourceTree = "<group>";
+		};
+		9E7815191EDFC06000BC7A8A /* TabBarCPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9E78151A1EDFC06000BC7A8A /* TabBarCPopMenu.h */,
+				9E78151B1EDFC06000BC7A8A /* TabBarCPopMenu.m */,
 			);
 			path = TabBarCPopMenu;
 			sourceTree = "<group>";
@@ -843,6 +889,7 @@
 		9EAFD3C61EDBDAEB0053E2F8 /* Zone */ = {
 			isa = PBXGroup;
 			children = (
+				9E7815191EDFC06000BC7A8A /* TabBarCPopMenu */,
 				9EF42DE21EDD6FEC002B7AE9 /* Zone */,
 			);
 			path = Zone;
@@ -1068,7 +1115,7 @@
 				TargetAttributes = {
 					9E2847E11EDB969A00F30EF4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = T2F46232N5;
+						DevelopmentTeam = BKME25WU4F;
 						ProvisioningStyle = Automatic;
 					};
 					9E2847FA1EDB969A00F30EF4 = {
@@ -1209,8 +1256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EABABE61EDDBF900011DF54 /* DynamicView.m in Sources */,
-				9E47DA7F1EDF051800C524A7 /* TabBarCPopMenu.m in Sources */,
 				9E47DA771EDEF70800C524A7 /* STPopMenu.m in Sources */,
+				9E7815181EDFBD7700BC7A8A /* LFGPUImageBeautyFilter.m in Sources */,
 				9E47DA681EDECA6500C524A7 /* StoreCell.m in Sources */,
 				9E47DA7B1EDEFCF100C524A7 /* ThirdLibPopMenu.m in Sources */,
 				9EABABEA1EDDBF900011DF54 /* FindView.m in Sources */,
@@ -1227,6 +1274,7 @@
 				9EAFD4721EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m in Sources */,
 				9EABABE81EDDBF900011DF54 /* DynamicViewC.m in Sources */,
 				9E2848221EDBA4BA00F30EF4 /* STMainTabBarC.m in Sources */,
+				9E78151C1EDFC06000BC7A8A /* TabBarCPopMenu.m in Sources */,
 				9E2847EA1EDB969A00F30EF4 /* AppDelegate.m in Sources */,
 				9E2847E71EDB969A00F30EF4 /* main.m in Sources */,
 				9EABABE21EDDBF900011DF54 /* AttentionView.m in Sources */,
@@ -1237,6 +1285,8 @@
 				9EABABDF1EDDBF900011DF54 /* StoreView.m in Sources */,
 				9EAFD3A51EDBB34D0053E2F8 /* STNavBarView.m in Sources */,
 				9EAFD4361EDBF6F20053E2F8 /* HyPopMenuView.m in Sources */,
+				9E7815151EDFB6C300BC7A8A /* STBeautyViewC.m in Sources */,
+				9E7815141EDFB6C300BC7A8A /* STBeautyView.m in Sources */,
 				9EAFD3BF1EDBD9DD0053E2F8 /* ChatViewC.m in Sources */,
 				9EAFD3B11EDBB8E50053E2F8 /* HomeView.m in Sources */,
 				9E47DA5B1EDEC57A00C524A7 /* STMoreViewCScrollView.m in Sources */,
@@ -1396,7 +1446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = T2F46232N5;
+				DEVELOPMENT_TEAM = BKME25WU4F;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STApp/PCH/STAppPch.pch";
 				INFOPLIST_FILE = STApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1412,7 +1462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = T2F46232N5;
+				DEVELOPMENT_TEAM = BKME25WU4F;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STApp/PCH/STAppPch.pch";
 				INFOPLIST_FILE = STApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
