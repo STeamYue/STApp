@@ -42,6 +42,7 @@
     findViewC.recordTabBarC = self;     //记录
     //findViewC.title = @"发现";
     [findViewC findView];
+    findViewC.automaticallyAdjustsScrollViewInsets = false;//拮据scrollow 里子View向下偏移问题
     UINavigationController *findNavC = [[UINavigationController alloc] initWithRootViewController:findViewC];
     findNavC.navigationBar.hidden = YES;
 

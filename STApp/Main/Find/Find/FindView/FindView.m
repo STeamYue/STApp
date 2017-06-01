@@ -32,7 +32,7 @@
 #pragma mark - 初始化设置
 - (void)showInit{
     [self addSubview: [self scrollView]];   //添加scrollView
-    self.scrollView.backgroundColor = [UIColor blackColor];
+    self.scrollView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     [self addSubview: [self titleView]];  //添加 titleView
     self.scrollView.pagingEnabled = YES;  //设置分页
      self.scrollView.showsHorizontalScrollIndicator = NO;
