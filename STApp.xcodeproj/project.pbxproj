@@ -74,6 +74,12 @@
 		9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4531EDC2DDC0053E2F8 /* LoginViewC.xib */; };
 		9EAFD4721EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFD4701EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m */; };
 		9EAFD4761EDC6A9D0053E2F8 /* startMovide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9EAFD4751EDC6A9D0053E2F8 /* startMovide.mp4 */; };
+		9EE7968A1EE0FE8C00273B07 /* DynamicHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE796891EE0FE8C00273B07 /* DynamicHeaderView.m */; };
+		9EE796901EE1129F00273B07 /* DynamicThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7968E1EE1129F00273B07 /* DynamicThirdCell.m */; };
+		9EE796911EE1129F00273B07 /* DynamicThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE7968F1EE1129F00273B07 /* DynamicThirdCell.xib */; };
+		9EE796951EE1136C00273B07 /* DynamicSixCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE796931EE1136C00273B07 /* DynamicSixCell.m */; };
+		9EE796961EE1136C00273B07 /* DynamicSixCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE796941EE1136C00273B07 /* DynamicSixCell.xib */; };
+		9EE7969B1EE1825200273B07 /* STPublishBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7969A1EE1825200273B07 /* STPublishBaseView.m */; };
 		9EF42DEB1EDD6FF8002B7AE9 /* ZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF42DE51EDD6FF7002B7AE9 /* ZoneView.m */; };
 		9EF42DEC1EDD6FF8002B7AE9 /* ZoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF42DE61EDD6FF8002B7AE9 /* ZoneView.xib */; };
 		9EF42DED1EDD6FF8002B7AE9 /* ZoneViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF42DE91EDD6FF8002B7AE9 /* ZoneViewC.m */; };
@@ -216,6 +222,16 @@
 		9EAFD46F1EDC67170053E2F8 /* STStarMovieAVPlayerViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStarMovieAVPlayerViewC.h; sourceTree = "<group>"; };
 		9EAFD4701EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStarMovieAVPlayerViewC.m; sourceTree = "<group>"; };
 		9EAFD4751EDC6A9D0053E2F8 /* startMovide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = startMovide.mp4; sourceTree = "<group>"; };
+		9EE796881EE0FE8C00273B07 /* DynamicHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicHeaderView.h; sourceTree = "<group>"; };
+		9EE796891EE0FE8C00273B07 /* DynamicHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicHeaderView.m; sourceTree = "<group>"; };
+		9EE7968D1EE1129F00273B07 /* DynamicThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicThirdCell.h; sourceTree = "<group>"; };
+		9EE7968E1EE1129F00273B07 /* DynamicThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicThirdCell.m; sourceTree = "<group>"; };
+		9EE7968F1EE1129F00273B07 /* DynamicThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicThirdCell.xib; sourceTree = "<group>"; };
+		9EE796921EE1136C00273B07 /* DynamicSixCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicSixCell.h; sourceTree = "<group>"; };
+		9EE796931EE1136C00273B07 /* DynamicSixCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicSixCell.m; sourceTree = "<group>"; };
+		9EE796941EE1136C00273B07 /* DynamicSixCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicSixCell.xib; sourceTree = "<group>"; };
+		9EE796991EE1825200273B07 /* STPublishBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPublishBaseView.h; sourceTree = "<group>"; };
+		9EE7969A1EE1825200273B07 /* STPublishBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPublishBaseView.m; sourceTree = "<group>"; };
 		9EF42DE41EDD6FF7002B7AE9 /* ZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneView.h; sourceTree = "<group>"; };
 		9EF42DE51EDD6FF7002B7AE9 /* ZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneView.m; sourceTree = "<group>"; };
 		9EF42DE61EDD6FF8002B7AE9 /* ZoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoneView.xib; sourceTree = "<group>"; };
@@ -385,6 +401,7 @@
 		9E2848261EDBA74C00F30EF4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9EE796971EE181FC00273B07 /* Publish */,
 				9EAFD43E1EDC25C90053E2F8 /* Login */,
 				9EAFD3D31EDBDC950053E2F8 /* Find */,
 				9EAFD3C61EDBDAEB0053E2F8 /* Zone */,
@@ -452,6 +469,7 @@
 		9E28483C1EDBB28C00F30EF4 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				9EE796981EE1823C00273B07 /* STPublishBaseView */,
 				9E47DA5C1EDEC5BB00C524A7 /* UICollectionView */,
 				9E47DA571EDEC57A00C524A7 /* UIScrollView */,
 				9EAFD3A11EDBB34D0053E2F8 /* STNavBarView */,
@@ -499,6 +517,8 @@
 		9E47DA381EDEA1CA00C524A7 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				9EE7968B1EE1090500273B07 /* DynamicThirdCell */,
+				9EE7968C1EE1090500273B07 /* DynamicSixCell */,
 				9E47DA391EDEA1DB00C524A7 /* DynamicCell */,
 			);
 			path = Cell;
@@ -761,6 +781,7 @@
 		9EABABCC1EDDBF900011DF54 /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				9EE796871EE0FE7200273B07 /* DynamicHeaderView */,
 				9E47DA381EDEA1CA00C524A7 /* Cell */,
 				9E47DA331EDEA1A300C524A7 /* Model */,
 				9EABABCD1EDDBF900011DF54 /* DynamicView */,
@@ -1016,6 +1037,51 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		9EE796871EE0FE7200273B07 /* DynamicHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				9EE796881EE0FE8C00273B07 /* DynamicHeaderView.h */,
+				9EE796891EE0FE8C00273B07 /* DynamicHeaderView.m */,
+			);
+			path = DynamicHeaderView;
+			sourceTree = "<group>";
+		};
+		9EE7968B1EE1090500273B07 /* DynamicThirdCell */ = {
+			isa = PBXGroup;
+			children = (
+				9EE7968D1EE1129F00273B07 /* DynamicThirdCell.h */,
+				9EE7968E1EE1129F00273B07 /* DynamicThirdCell.m */,
+				9EE7968F1EE1129F00273B07 /* DynamicThirdCell.xib */,
+			);
+			path = DynamicThirdCell;
+			sourceTree = "<group>";
+		};
+		9EE7968C1EE1090500273B07 /* DynamicSixCell */ = {
+			isa = PBXGroup;
+			children = (
+				9EE796921EE1136C00273B07 /* DynamicSixCell.h */,
+				9EE796931EE1136C00273B07 /* DynamicSixCell.m */,
+				9EE796941EE1136C00273B07 /* DynamicSixCell.xib */,
+			);
+			path = DynamicSixCell;
+			sourceTree = "<group>";
+		};
+		9EE796971EE181FC00273B07 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		9EE796981EE1823C00273B07 /* STPublishBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				9EE796991EE1825200273B07 /* STPublishBaseView.h */,
+				9EE7969A1EE1825200273B07 /* STPublishBaseView.m */,
+			);
+			path = STPublishBaseView;
+			sourceTree = "<group>";
+		};
 		9EF42DE21EDD6FEC002B7AE9 /* Zone */ = {
 			isa = PBXGroup;
 			children = (
@@ -1161,6 +1227,7 @@
 				9EAFD3B31EDBB9030053E2F8 /* HomeView.xib in Resources */,
 				9EABABE51EDDBF900011DF54 /* AttentionViewC.xib in Resources */,
 				9EAFD4761EDC6A9D0053E2F8 /* startMovide.mp4 in Resources */,
+				9EE796961EE1136C00273B07 /* DynamicSixCell.xib in Resources */,
 				9EABABE71EDDBF900011DF54 /* DynamicView.xib in Resources */,
 				9EAFD4551EDC2DDC0053E2F8 /* LoginViewC.xib in Resources */,
 				9E47DA691EDECA6500C524A7 /* StoreCell.xib in Resources */,
@@ -1173,6 +1240,7 @@
 				9EABABED1EDDBF900011DF54 /* FindViewC.xib in Resources */,
 				9E47DA711EDED56400C524A7 /* StoreView.xib in Resources */,
 				9E2847F51EDB969A00F30EF4 /* LaunchScreen.storyboard in Resources */,
+				9EE796911EE1129F00273B07 /* DynamicThirdCell.xib in Resources */,
 				9EAFD3C01EDBD9DD0053E2F8 /* ChatViewC.xib in Resources */,
 				9EABABE91EDDBF900011DF54 /* DynamicViewC.xib in Resources */,
 				9EAFD3AB1EDBB4190053E2F8 /* PersonalView.xib in Resources */,
@@ -1269,6 +1337,7 @@
 				9EABABEC1EDDBF900011DF54 /* FindViewC.m in Sources */,
 				9EAFD4481EDC29CF0053E2F8 /* LoginView.m in Sources */,
 				9EAFD4381EDBF6F20053E2F8 /* PopMenuModel.m in Sources */,
+				9EE796901EE1129F00273B07 /* DynamicThirdCell.m in Sources */,
 				9E47DA3D1EDEA1FD00C524A7 /* DynamicCell.m in Sources */,
 				9EAFD4541EDC2DDC0053E2F8 /* LoginViewC.m in Sources */,
 				9EAFD4721EDC67170053E2F8 /* STStarMovieAVPlayerViewC.m in Sources */,
@@ -1282,6 +1351,7 @@
 				9EAFD3A91EDBB3FE0053E2F8 /* PersonalView.m in Sources */,
 				9EAFD4371EDBF6F20053E2F8 /* PopMenuButton.m in Sources */,
 				9EAFD3B71EDBB9CB0053E2F8 /* HomeViewC.m in Sources */,
+				9EE7968A1EE0FE8C00273B07 /* DynamicHeaderView.m in Sources */,
 				9EABABDF1EDDBF900011DF54 /* StoreView.m in Sources */,
 				9EAFD3A51EDBB34D0053E2F8 /* STNavBarView.m in Sources */,
 				9EAFD4361EDBF6F20053E2F8 /* HyPopMenuView.m in Sources */,
@@ -1289,6 +1359,7 @@
 				9E7815141EDFB6C300BC7A8A /* STBeautyView.m in Sources */,
 				9EAFD3BF1EDBD9DD0053E2F8 /* ChatViewC.m in Sources */,
 				9EAFD3B11EDBB8E50053E2F8 /* HomeView.m in Sources */,
+				9EE796951EE1136C00273B07 /* DynamicSixCell.m in Sources */,
 				9E47DA5B1EDEC57A00C524A7 /* STMoreViewCScrollView.m in Sources */,
 				9EABABE41EDDBF900011DF54 /* AttentionViewC.m in Sources */,
 				9E2848441EDBB2FC00F30EF4 /* STTableViewBaseView.m in Sources */,
@@ -1298,6 +1369,7 @@
 				9E2848391EDBB21900F30EF4 /* PersonalViewC.m in Sources */,
 				9E47DA371EDEA1A300C524A7 /* DynamicModel.m in Sources */,
 				9E47DA6F1EDED22800C524A7 /* ThirdIteamLayout.m in Sources */,
+				9EE7969B1EE1825200273B07 /* STPublishBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1446,6 +1518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BKME25WU4F;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STApp/PCH/STAppPch.pch";
 				INFOPLIST_FILE = STApp/Info.plist;
@@ -1453,6 +1526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.STApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1462,6 +1536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BKME25WU4F;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STApp/PCH/STAppPch.pch";
 				INFOPLIST_FILE = STApp/Info.plist;
@@ -1469,6 +1544,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.STApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

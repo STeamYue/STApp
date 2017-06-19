@@ -8,7 +8,7 @@
 
 #import "STTableViewBaseView.h"
 #import "STEvenLyCollectionView.h"
-
-@interface StoreView : STEvenLyCollectionView
-
+#import "CHTCollectionViewWaterfallLayout.h"
+@interface StoreView : STEvenLyCollectionView <CHTCollectionViewDelegateWaterfallLayout>
+@property (nonatomic, strong) NSArray *cellSizes;
 @end

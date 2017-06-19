@@ -9,4 +9,5 @@ pod 'MJExtension'
 pod 'IQKeyboardManager'
 pod 'pop' 
 pod 'GPUImage' 
+pod 'CHTCollectionViewWaterfallLayout'
 end

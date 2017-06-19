@@ -21,8 +21,8 @@
     self.scrollDirection = UICollectionViewScrollDirectionVertical;
 
         // 设置大小
-        self.itemSize =CGSizeMake((SCREEN_WIDTH-3*8)/3,(SCREEN_WIDTH-3*8)/3);
-        self.sectionInset = UIEdgeInsetsMake(0,0,0,0);
+        self.itemSize =CGSizeMake((SCREEN_WIDTH-3*8-4*2)/3,(SCREEN_WIDTH-3*8-4*2)/3);
+        self.sectionInset = UIEdgeInsetsMake(2,2,2,2);
         self.minimumInteritemSpacing=1;
 }
 @end

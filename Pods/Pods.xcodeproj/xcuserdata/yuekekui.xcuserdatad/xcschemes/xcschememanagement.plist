@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CHTCollectionViewWaterfallLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GPUImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>16C39CD552081DCC1198D6157B2BCF7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>270A81A96B43FDC77205148203D5049B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>331F86D74481B4CD0827B6633F9B52AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4F69F82C1EEBC0A05686A3B0FECD2FDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5C1CB3C1D087D8532617E394B6A1C80B</key>
+		<key>78E39AD532C82C79D5004C603F5C4848</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,16 +73,6 @@
 			<true/>
 		</dict>
 		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C43EAA3A7D2B400B1AD4A48F254951C6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F97352E26E03EF487D7C8BD79879A9CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -104,9 +104,9 @@ shouldSelectViewController:(UIViewController *)viewController{
         //弹出  菜单界面
         [self tabBarCPopMenu] ;
         self.tabBarCPopMenu.menu.animationType =  HyPopMenuViewAnimationTypeSina;
-        self.tabBarCPopMenu.menu.backgroundType = HyPopMenuViewBackgroundTypeLightTranslucent;
+        self.tabBarCPopMenu.menu.backgroundType = HyPopMenuViewBackgroundTypeLightBlur;
         [[self tabBarCPopMenu] showPopViewOfThemeImgMArray:@[@"pop_0",@"pop_1"].mutableCopy
-                                            themeNameMArray:@[@"美颜相机",@"发布动态"].mutableCopy
+                                            themeNameMArray:@[@"发布图文",@"发布视频"].mutableCopy
                                              themeNameColor:[UIColor redColor]
                                              transitionType:PopMenuTransitionTypeCustomizeApi
                                    transitionRenderingColor:[UIColor clearColor]];
